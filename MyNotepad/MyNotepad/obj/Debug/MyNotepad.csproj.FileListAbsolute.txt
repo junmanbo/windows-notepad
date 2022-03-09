@@ -1,0 +1,10 @@
+C:\Users\jun\Documents\windows-program\MyNotepad\MyNotepad\bin\Debug\MyNotepad.exe.config
+C:\Users\jun\Documents\windows-program\MyNotepad\MyNotepad\bin\Debug\MyNotepad.exe
+C:\Users\jun\Documents\windows-program\MyNotepad\MyNotepad\bin\Debug\MyNotepad.pdb
+C:\Users\jun\Documents\windows-program\MyNotepad\MyNotepad\obj\Debug\MyNotepad.csproj.AssemblyReference.cache
+C:\Users\jun\Documents\windows-program\MyNotepad\MyNotepad\obj\Debug\MyNotepad.Properties.Resources.resources
+C:\Users\jun\Documents\windows-program\MyNotepad\MyNotepad\obj\Debug\MyNotepad.csproj.GenerateResource.cache
+C:\Users\jun\Documents\windows-program\MyNotepad\MyNotepad\obj\Debug\MyNotepad.csproj.CoreCompileInputs.cache
+C:\Users\jun\Documents\windows-program\MyNotepad\MyNotepad\obj\Debug\MyNotepad.exe
+C:\Users\jun\Documents\windows-program\MyNotepad\MyNotepad\obj\Debug\MyNotepad.pdb
+C:\Users\jun\Documents\windows-program\MyNotepad\MyNotepad\obj\Debug\MyNotepad.FrmNote.resources
