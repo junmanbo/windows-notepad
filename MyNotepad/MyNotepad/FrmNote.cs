@@ -29,8 +29,16 @@ namespace MyNotepad
 
         private void 자동줄바꿈ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            tBoxMain.WordWrap = false;
-            자동줄바꿈ToolStripMenuItem.Checked = false;
+            if (tBoxMain.WordWrap == true)
+            {
+                tBoxMain.WordWrap = false;
+                자동줄바꿈ToolStripMenuItem.Checked = false;
+            }
+            else
+            {
+                tBoxMain.WordWrap = true;
+                자동줄바꿈ToolStripMenuItem.Checked = true;
+            }
         }
     }
 }
