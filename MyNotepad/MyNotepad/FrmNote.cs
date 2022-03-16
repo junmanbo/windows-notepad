@@ -77,7 +77,15 @@ namespace MyNotepad
 
         private void 메모장정보ToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            FrmInfo win = new FrmInfo();
+            win.ShowDialog();
+            win.Location = new Point(this.Location.X + 80, this.Location.Y + 80);
+        }
 
+        private void 새창ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmNote win = new FrmNote();
+            win.Show();
         }
     }
 }

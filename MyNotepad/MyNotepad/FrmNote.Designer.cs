@@ -126,6 +126,7 @@ namespace MyNotepad
             | System.Windows.Forms.Keys.N)));
             this.새창ToolStripMenuItem.Size = new System.Drawing.Size(268, 22);
             this.새창ToolStripMenuItem.Text = "새 창(W)";
+            this.새창ToolStripMenuItem.Click += new System.EventHandler(this.새창ToolStripMenuItem_Click);
             // 
             // 열기ToolStripMenuItem
             // 
@@ -337,26 +338,26 @@ namespace MyNotepad
             // 도움말보기ToolStripMenuItem
             // 
             this.도움말보기ToolStripMenuItem.Name = "도움말보기ToolStripMenuItem";
-            this.도움말보기ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.도움말보기ToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
             this.도움말보기ToolStripMenuItem.Text = "도움말 보기(H)";
             this.도움말보기ToolStripMenuItem.Click += new System.EventHandler(this.도움말보기ToolStripMenuItem_Click);
             // 
             // 피드백보내기ToolStripMenuItem
             // 
             this.피드백보내기ToolStripMenuItem.Name = "피드백보내기ToolStripMenuItem";
-            this.피드백보내기ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.피드백보내기ToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
             this.피드백보내기ToolStripMenuItem.Text = "피드백 보내기(F)";
             this.피드백보내기ToolStripMenuItem.Click += new System.EventHandler(this.피드백보내기ToolStripMenuItem_Click);
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(177, 6);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(161, 6);
             // 
             // 메모장정보ToolStripMenuItem
             // 
             this.메모장정보ToolStripMenuItem.Name = "메모장정보ToolStripMenuItem";
-            this.메모장정보ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.메모장정보ToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
             this.메모장정보ToolStripMenuItem.Text = "메모장 정보(A)";
             this.메모장정보ToolStripMenuItem.Click += new System.EventHandler(this.메모장정보ToolStripMenuItem_Click);
             // 
@@ -369,7 +370,7 @@ namespace MyNotepad
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "FrmNote";
-            this.Text = "MyNotepad V1.0";
+            this.Text = "MyNotepad V1.2";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
