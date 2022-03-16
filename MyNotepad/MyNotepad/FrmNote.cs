@@ -23,11 +23,6 @@ namespace MyNotepad
 
         }
 
-        private void 메모장정보AToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void 자동줄바꿈ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             if (tBoxMain.WordWrap == true)
@@ -70,7 +65,17 @@ namespace MyNotepad
             tBoxMain.Text = "";
         }
 
-        private void 피드백보내ToolStripMenuItem_Click(object sender, EventArgs e)
+        private void 도움말보기ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void 피드백보내기ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void 메모장정보ToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
         }
