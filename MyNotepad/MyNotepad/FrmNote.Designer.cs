@@ -126,6 +126,7 @@ namespace MyNotepad
             | System.Windows.Forms.Keys.N)));
             this.새창ToolStripMenuItem.Size = new System.Drawing.Size(268, 22);
             this.새창ToolStripMenuItem.Text = "새 창(W)";
+            this.새창ToolStripMenuItem.Click += new System.EventHandler(this.새창ToolStripMenuItem_Click);
             // 
             // 열기ToolStripMenuItem
             // 
@@ -369,7 +370,8 @@ namespace MyNotepad
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "FrmNote";
-            this.Text = "MyNotepad V1.0";
+            this.Text = "MyNotepad V2.0";
+            this.Load += new System.EventHandler(this.FrmNote_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

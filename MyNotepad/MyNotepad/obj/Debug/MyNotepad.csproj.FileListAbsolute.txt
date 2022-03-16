@@ -8,3 +8,4 @@ C:\Users\jun\Documents\windows-program\MyNotepad\MyNotepad\obj\Debug\MyNotepad.c
 C:\Users\jun\Documents\windows-program\MyNotepad\MyNotepad\obj\Debug\MyNotepad.exe
 C:\Users\jun\Documents\windows-program\MyNotepad\MyNotepad\obj\Debug\MyNotepad.pdb
 C:\Users\jun\Documents\windows-program\MyNotepad\MyNotepad\obj\Debug\MyNotepad.FrmNote.resources
+C:\Users\jun\Documents\windows-program\MyNotepad\MyNotepad\obj\Debug\MyNotepad.FrmInfo.resources
