@@ -32,41 +32,40 @@ namespace MyNotepad
             this.tBoxMain = new System.Windows.Forms.TextBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.파일ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.편집ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.서식ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.보기ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.도움말ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.새로만들기NToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.새창ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.열기ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.저장SToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.자동줄바꿈ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.글꼴ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.다른이름으로저장AToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.페이지설정UToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.인쇄PToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.끝내기XToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.편집ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.실행취소UToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.잘라내기TToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.복사CToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.붙여넣기PToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.삭제LToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
             this.모두선택AToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.시간날짜DToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.서식ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.자동줄바꿈ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.글꼴ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.보기ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.확대하기축소하기ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.확대ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.축소ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.상태표시줄SToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.도움말보기HToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.메모장정보AToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.확대하기축소하기기본값복원ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.피드백보내ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.상태표시줄SToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.도움말HToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.도움말보기ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.피드백보내기ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
-            this.메모장정보AToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
+            this.메모장정보ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -77,7 +76,7 @@ namespace MyNotepad
             this.tBoxMain.Multiline = true;
             this.tBoxMain.Name = "tBoxMain";
             this.tBoxMain.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.tBoxMain.Size = new System.Drawing.Size(800, 426);
+            this.tBoxMain.Size = new System.Drawing.Size(743, 319);
             this.tBoxMain.TabIndex = 0;
             // 
             // menuStrip1
@@ -87,10 +86,10 @@ namespace MyNotepad
             this.편집ToolStripMenuItem,
             this.서식ToolStripMenuItem,
             this.보기ToolStripMenuItem,
-            this.도움말ToolStripMenuItem});
+            this.도움말HToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(743, 24);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -112,6 +111,76 @@ namespace MyNotepad
             this.파일ToolStripMenuItem.Text = "파일(F)";
             this.파일ToolStripMenuItem.Click += new System.EventHandler(this.파일ToolStripMenuItem_Click);
             // 
+            // 새로만들기NToolStripMenuItem
+            // 
+            this.새로만들기NToolStripMenuItem.Name = "새로만들기NToolStripMenuItem";
+            this.새로만들기NToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
+            this.새로만들기NToolStripMenuItem.Size = new System.Drawing.Size(268, 22);
+            this.새로만들기NToolStripMenuItem.Text = "새로 만들기(N)";
+            this.새로만들기NToolStripMenuItem.Click += new System.EventHandler(this.새로만들기NToolStripMenuItem_Click);
+            // 
+            // 새창ToolStripMenuItem
+            // 
+            this.새창ToolStripMenuItem.Name = "새창ToolStripMenuItem";
+            this.새창ToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
+            | System.Windows.Forms.Keys.N)));
+            this.새창ToolStripMenuItem.Size = new System.Drawing.Size(268, 22);
+            this.새창ToolStripMenuItem.Text = "새 창(W)";
+            this.새창ToolStripMenuItem.Click += new System.EventHandler(this.새창ToolStripMenuItem_Click);
+            // 
+            // 열기ToolStripMenuItem
+            // 
+            this.열기ToolStripMenuItem.Name = "열기ToolStripMenuItem";
+            this.열기ToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
+            this.열기ToolStripMenuItem.Size = new System.Drawing.Size(268, 22);
+            this.열기ToolStripMenuItem.Text = "열기(O)...";
+            this.열기ToolStripMenuItem.Click += new System.EventHandler(this.열기ToolStripMenuItem_Click);
+            // 
+            // 저장SToolStripMenuItem
+            // 
+            this.저장SToolStripMenuItem.Name = "저장SToolStripMenuItem";
+            this.저장SToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
+            this.저장SToolStripMenuItem.Size = new System.Drawing.Size(268, 22);
+            this.저장SToolStripMenuItem.Text = "저장(S)";
+            this.저장SToolStripMenuItem.Click += new System.EventHandler(this.저장SToolStripMenuItem_Click);
+            // 
+            // 다른이름으로저장AToolStripMenuItem
+            // 
+            this.다른이름으로저장AToolStripMenuItem.Name = "다른이름으로저장AToolStripMenuItem";
+            this.다른이름으로저장AToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
+            | System.Windows.Forms.Keys.S)));
+            this.다른이름으로저장AToolStripMenuItem.Size = new System.Drawing.Size(268, 22);
+            this.다른이름으로저장AToolStripMenuItem.Text = "다른 이름으로 저장(A)";
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(265, 6);
+            // 
+            // 페이지설정UToolStripMenuItem
+            // 
+            this.페이지설정UToolStripMenuItem.Name = "페이지설정UToolStripMenuItem";
+            this.페이지설정UToolStripMenuItem.Size = new System.Drawing.Size(268, 22);
+            this.페이지설정UToolStripMenuItem.Text = "페이지 설정(U)";
+            // 
+            // 인쇄PToolStripMenuItem
+            // 
+            this.인쇄PToolStripMenuItem.Name = "인쇄PToolStripMenuItem";
+            this.인쇄PToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.P)));
+            this.인쇄PToolStripMenuItem.Size = new System.Drawing.Size(268, 22);
+            this.인쇄PToolStripMenuItem.Text = "인쇄(P)...";
+            // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(265, 6);
+            // 
+            // 끝내기XToolStripMenuItem
+            // 
+            this.끝내기XToolStripMenuItem.Name = "끝내기XToolStripMenuItem";
+            this.끝내기XToolStripMenuItem.Size = new System.Drawing.Size(268, 22);
+            this.끝내기XToolStripMenuItem.Text = "끝내기(X)";
+            // 
             // 편집ToolStripMenuItem
             // 
             this.편집ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -128,113 +197,17 @@ namespace MyNotepad
             this.편집ToolStripMenuItem.Size = new System.Drawing.Size(57, 20);
             this.편집ToolStripMenuItem.Text = "편집(E)";
             // 
-            // 서식ToolStripMenuItem
-            // 
-            this.서식ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.자동줄바꿈ToolStripMenuItem,
-            this.글꼴ToolStripMenuItem});
-            this.서식ToolStripMenuItem.Name = "서식ToolStripMenuItem";
-            this.서식ToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
-            this.서식ToolStripMenuItem.Text = "서식(O)";
-            // 
-            // 보기ToolStripMenuItem
-            // 
-            this.보기ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.확대하기축소하기ToolStripMenuItem,
-            this.상태표시줄SToolStripMenuItem});
-            this.보기ToolStripMenuItem.Name = "보기ToolStripMenuItem";
-            this.보기ToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
-            this.보기ToolStripMenuItem.Text = "보기(V)";
-            // 
-            // 도움말ToolStripMenuItem
-            // 
-            this.도움말ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.도움말보기HToolStripMenuItem,
-            this.메모장정보AToolStripMenuItem,
-            this.toolStripSeparator3,
-            this.피드백보내ToolStripMenuItem,
-            this.메모장정보AToolStripMenuItem1});
-            this.도움말ToolStripMenuItem.Name = "도움말ToolStripMenuItem";
-            this.도움말ToolStripMenuItem.Size = new System.Drawing.Size(72, 20);
-            this.도움말ToolStripMenuItem.Text = "도움말(H)";
-            // 
-            // 새로만들기NToolStripMenuItem
-            // 
-            this.새로만들기NToolStripMenuItem.Name = "새로만들기NToolStripMenuItem";
-            this.새로만들기NToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
-            this.새로만들기NToolStripMenuItem.Size = new System.Drawing.Size(268, 22);
-            this.새로만들기NToolStripMenuItem.Text = "새로 만들기(N)";
-            // 
-            // 새창ToolStripMenuItem
-            // 
-            this.새창ToolStripMenuItem.Name = "새창ToolStripMenuItem";
-            this.새창ToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
-            | System.Windows.Forms.Keys.N)));
-            this.새창ToolStripMenuItem.Size = new System.Drawing.Size(268, 22);
-            this.새창ToolStripMenuItem.Text = "새 창(W)";
-            // 
-            // 열기ToolStripMenuItem
-            // 
-            this.열기ToolStripMenuItem.Name = "열기ToolStripMenuItem";
-            this.열기ToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
-            this.열기ToolStripMenuItem.Size = new System.Drawing.Size(268, 22);
-            this.열기ToolStripMenuItem.Text = "열기(O)...";
-            // 
-            // 저장SToolStripMenuItem
-            // 
-            this.저장SToolStripMenuItem.Name = "저장SToolStripMenuItem";
-            this.저장SToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.저장SToolStripMenuItem.Size = new System.Drawing.Size(268, 22);
-            this.저장SToolStripMenuItem.Text = "저장(S)";
-            // 
-            // 자동줄바꿈ToolStripMenuItem
-            // 
-            this.자동줄바꿈ToolStripMenuItem.Checked = true;
-            this.자동줄바꿈ToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.자동줄바꿈ToolStripMenuItem.Name = "자동줄바꿈ToolStripMenuItem";
-            this.자동줄바꿈ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.자동줄바꿈ToolStripMenuItem.Text = "자동 줄 바꿈(W)";
-            this.자동줄바꿈ToolStripMenuItem.Click += new System.EventHandler(this.자동줄바꿈ToolStripMenuItem_Click);
-            // 
-            // 글꼴ToolStripMenuItem
-            // 
-            this.글꼴ToolStripMenuItem.Name = "글꼴ToolStripMenuItem";
-            this.글꼴ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.글꼴ToolStripMenuItem.Text = "글꼴(F)...";
-            // 
-            // 다른이름으로저장AToolStripMenuItem
-            // 
-            this.다른이름으로저장AToolStripMenuItem.Name = "다른이름으로저장AToolStripMenuItem";
-            this.다른이름으로저장AToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
-            | System.Windows.Forms.Keys.S)));
-            this.다른이름으로저장AToolStripMenuItem.Size = new System.Drawing.Size(268, 22);
-            this.다른이름으로저장AToolStripMenuItem.Text = "다른 이름으로 저장(A)";
-            // 
-            // 페이지설정UToolStripMenuItem
-            // 
-            this.페이지설정UToolStripMenuItem.Name = "페이지설정UToolStripMenuItem";
-            this.페이지설정UToolStripMenuItem.Size = new System.Drawing.Size(268, 22);
-            this.페이지설정UToolStripMenuItem.Text = "페이지 설정(U)";
-            // 
-            // 인쇄PToolStripMenuItem
-            // 
-            this.인쇄PToolStripMenuItem.Name = "인쇄PToolStripMenuItem";
-            this.인쇄PToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.P)));
-            this.인쇄PToolStripMenuItem.Size = new System.Drawing.Size(268, 22);
-            this.인쇄PToolStripMenuItem.Text = "인쇄(P)...";
-            // 
-            // 끝내기XToolStripMenuItem
-            // 
-            this.끝내기XToolStripMenuItem.Name = "끝내기XToolStripMenuItem";
-            this.끝내기XToolStripMenuItem.Size = new System.Drawing.Size(268, 22);
-            this.끝내기XToolStripMenuItem.Text = "끝내기(X)";
-            // 
             // 실행취소UToolStripMenuItem
             // 
             this.실행취소UToolStripMenuItem.Name = "실행취소UToolStripMenuItem";
             this.실행취소UToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Z)));
             this.실행취소UToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
             this.실행취소UToolStripMenuItem.Text = "실행 취소(U)";
+            // 
+            // toolStripSeparator4
+            // 
+            this.toolStripSeparator4.Name = "toolStripSeparator4";
+            this.toolStripSeparator4.Size = new System.Drawing.Size(181, 6);
             // 
             // 잘라내기TToolStripMenuItem
             // 
@@ -264,6 +237,11 @@ namespace MyNotepad
             this.삭제LToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
             this.삭제LToolStripMenuItem.Text = "삭제(L)";
             // 
+            // toolStripSeparator5
+            // 
+            this.toolStripSeparator5.Name = "toolStripSeparator5";
+            this.toolStripSeparator5.Size = new System.Drawing.Size(181, 6);
+            // 
             // 모두선택AToolStripMenuItem
             // 
             this.모두선택AToolStripMenuItem.Name = "모두선택AToolStripMenuItem";
@@ -278,6 +256,39 @@ namespace MyNotepad
             this.시간날짜DToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
             this.시간날짜DToolStripMenuItem.Text = "시간/날짜(D)";
             // 
+            // 서식ToolStripMenuItem
+            // 
+            this.서식ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.자동줄바꿈ToolStripMenuItem,
+            this.글꼴ToolStripMenuItem});
+            this.서식ToolStripMenuItem.Name = "서식ToolStripMenuItem";
+            this.서식ToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
+            this.서식ToolStripMenuItem.Text = "서식(O)";
+            // 
+            // 자동줄바꿈ToolStripMenuItem
+            // 
+            this.자동줄바꿈ToolStripMenuItem.Checked = true;
+            this.자동줄바꿈ToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.자동줄바꿈ToolStripMenuItem.Name = "자동줄바꿈ToolStripMenuItem";
+            this.자동줄바꿈ToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
+            this.자동줄바꿈ToolStripMenuItem.Text = "자동 줄 바꿈(W)";
+            this.자동줄바꿈ToolStripMenuItem.Click += new System.EventHandler(this.자동줄바꿈ToolStripMenuItem_Click);
+            // 
+            // 글꼴ToolStripMenuItem
+            // 
+            this.글꼴ToolStripMenuItem.Name = "글꼴ToolStripMenuItem";
+            this.글꼴ToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
+            this.글꼴ToolStripMenuItem.Text = "글꼴(F)...";
+            // 
+            // 보기ToolStripMenuItem
+            // 
+            this.보기ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.확대하기축소하기ToolStripMenuItem,
+            this.상태표시줄SToolStripMenuItem});
+            this.보기ToolStripMenuItem.Name = "보기ToolStripMenuItem";
+            this.보기ToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
+            this.보기ToolStripMenuItem.Text = "보기(V)";
+            // 
             // 확대하기축소하기ToolStripMenuItem
             // 
             this.확대하기축소하기ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -285,7 +296,7 @@ namespace MyNotepad
             this.축소ToolStripMenuItem,
             this.확대하기축소하기기본값복원ToolStripMenuItem});
             this.확대하기축소하기ToolStripMenuItem.Name = "확대하기축소하기ToolStripMenuItem";
-            this.확대하기축소하기ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.확대하기축소하기ToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
             this.확대하기축소하기ToolStripMenuItem.Text = "확대하기/축소하기";
             // 
             // 확대ToolStripMenuItem
@@ -300,25 +311,6 @@ namespace MyNotepad
             this.축소ToolStripMenuItem.Size = new System.Drawing.Size(284, 22);
             this.축소ToolStripMenuItem.Text = "축소(O)";
             // 
-            // 상태표시줄SToolStripMenuItem
-            // 
-            this.상태표시줄SToolStripMenuItem.Name = "상태표시줄SToolStripMenuItem";
-            this.상태표시줄SToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.상태표시줄SToolStripMenuItem.Text = "상태 표시줄(S)";
-            // 
-            // 도움말보기HToolStripMenuItem
-            // 
-            this.도움말보기HToolStripMenuItem.Name = "도움말보기HToolStripMenuItem";
-            this.도움말보기HToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.도움말보기HToolStripMenuItem.Text = "도움말 보기(H)";
-            // 
-            // 메모장정보AToolStripMenuItem
-            // 
-            this.메모장정보AToolStripMenuItem.Name = "메모장정보AToolStripMenuItem";
-            this.메모장정보AToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.메모장정보AToolStripMenuItem.Text = "피드백 보내기(F)";
-            this.메모장정보AToolStripMenuItem.Click += new System.EventHandler(this.메모장정보AToolStripMenuItem_Click);
-            // 
             // 확대하기축소하기기본값복원ToolStripMenuItem
             // 
             this.확대하기축소하기기본값복원ToolStripMenuItem.Name = "확대하기축소하기기본값복원ToolStripMenuItem";
@@ -326,53 +318,60 @@ namespace MyNotepad
             this.확대하기축소하기기본값복원ToolStripMenuItem.Size = new System.Drawing.Size(284, 22);
             this.확대하기축소하기기본값복원ToolStripMenuItem.Text = "확대하기/축소하기 기본값 복원";
             // 
-            // toolStripSeparator1
+            // 상태표시줄SToolStripMenuItem
             // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(265, 6);
+            this.상태표시줄SToolStripMenuItem.Name = "상태표시줄SToolStripMenuItem";
+            this.상태표시줄SToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.상태표시줄SToolStripMenuItem.Text = "상태 표시줄(S)";
             // 
-            // toolStripSeparator2
+            // 도움말HToolStripMenuItem
             // 
-            this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(265, 6);
+            this.도움말HToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.도움말보기ToolStripMenuItem,
+            this.피드백보내기ToolStripMenuItem,
+            this.toolStripSeparator3,
+            this.메모장정보ToolStripMenuItem});
+            this.도움말HToolStripMenuItem.Name = "도움말HToolStripMenuItem";
+            this.도움말HToolStripMenuItem.Size = new System.Drawing.Size(72, 20);
+            this.도움말HToolStripMenuItem.Text = "도움말(H)";
             // 
-            // 피드백보내ToolStripMenuItem
+            // 도움말보기ToolStripMenuItem
             // 
-            this.피드백보내ToolStripMenuItem.Name = "피드백보내ToolStripMenuItem";
-            this.피드백보내ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.피드백보내ToolStripMenuItem.Text = "메모장 정보(A)";
+            this.도움말보기ToolStripMenuItem.Name = "도움말보기ToolStripMenuItem";
+            this.도움말보기ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.도움말보기ToolStripMenuItem.Text = "도움말 보기(H)";
+            this.도움말보기ToolStripMenuItem.Click += new System.EventHandler(this.도움말보기ToolStripMenuItem_Click);
+            // 
+            // 피드백보내기ToolStripMenuItem
+            // 
+            this.피드백보내기ToolStripMenuItem.Name = "피드백보내기ToolStripMenuItem";
+            this.피드백보내기ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.피드백보내기ToolStripMenuItem.Text = "피드백 보내기(F)";
+            this.피드백보내기ToolStripMenuItem.Click += new System.EventHandler(this.피드백보내기ToolStripMenuItem_Click);
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
             this.toolStripSeparator3.Size = new System.Drawing.Size(177, 6);
             // 
-            // 메모장정보AToolStripMenuItem1
+            // 메모장정보ToolStripMenuItem
             // 
-            this.메모장정보AToolStripMenuItem1.Name = "메모장정보AToolStripMenuItem1";
-            this.메모장정보AToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.메모장정보AToolStripMenuItem1.Text = "메모장 정보(A)";
-            // 
-            // toolStripSeparator4
-            // 
-            this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(181, 6);
-            // 
-            // toolStripSeparator5
-            // 
-            this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(181, 6);
+            this.메모장정보ToolStripMenuItem.Name = "메모장정보ToolStripMenuItem";
+            this.메모장정보ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.메모장정보ToolStripMenuItem.Text = "메모장 정보(A)";
+            this.메모장정보ToolStripMenuItem.Click += new System.EventHandler(this.메모장정보ToolStripMenuItem_Click);
             // 
             // FrmNote
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(743, 343);
             this.Controls.Add(this.tBoxMain);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "FrmNote";
-            this.Text = "MyNotepad V1.0";
+            this.Text = "MyNotepad V2.0";
+            this.Load += new System.EventHandler(this.FrmNote_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -388,7 +387,6 @@ namespace MyNotepad
         private System.Windows.Forms.ToolStripMenuItem 편집ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 서식ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 보기ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 도움말ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 새로만들기NToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 새창ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 열기ToolStripMenuItem;
@@ -413,13 +411,13 @@ namespace MyNotepad
         private System.Windows.Forms.ToolStripMenuItem 축소ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 확대하기축소하기기본값복원ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 상태표시줄SToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 도움말보기HToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 메모장정보AToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 피드백보내ToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
+        private System.Windows.Forms.ToolStripMenuItem 도움말HToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 도움말보기ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 피드백보내기ToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
-        private System.Windows.Forms.ToolStripMenuItem 메모장정보AToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem 메모장정보ToolStripMenuItem;
     }
 }
 
